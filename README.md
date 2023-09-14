@@ -67,7 +67,9 @@ A tool for transforming CSS with JavaScript
 
 The app is already prepared for 3 different environments - development, testing and production. You can run the app locally by simply running:
 
-- npm run start
+```bash
+npm run start  
+```
 
 You can build the file for each environment by running:
 
