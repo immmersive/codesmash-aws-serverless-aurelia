@@ -1,0 +1,11 @@
+@tailwind preflight;
+
+@tailwind components; 
+
+@tailwind utilities;
+
+@layer utilities {
+
+    @variants responsive {
+    }    
+}
