@@ -10,6 +10,13 @@ You can build a fully customized Aurelia web app from this repo. The app is inte
 
 This repo is usimg the following packages:
 
+## Aurelia
+
+JavaScript framework for building SPA web apps.
+
+- aurelia-plugin
+- aurelia-bootstrapper
+
 ## Neutrino 
 
 A fluent API setup for Webpack
@@ -17,6 +24,20 @@ A fluent API setup for Webpack
 ## Webpack
 
 Static file packaging for Javascript-based web apps.
+
+- records
+- custom build folder
+- hot module reload
+- html-webpack-plugin
+  - index.ejs template
+- copy-webpack-plugin
+  - robots.txt
+  - sitemap.xml
+- url-loader
+  - imports images
+- resolves node_modules
+- build manifest
+- split chunks and load with dynamic <span>import('...')</span>
 
 ## TypeScript
 
