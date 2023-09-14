@@ -1,6 +1,6 @@
 # codesmash-aws-serverless-aurelia
 
-
+![Aurelia](https://github.com/immmersive/codesmash-aws-serverless-aurelia/blob/main/app/web/src/resources/images/aurelia.png)
 
 This repo contains a highly customized template for deploying a serverless Aurelia web app. 
 
