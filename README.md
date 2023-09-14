@@ -83,7 +83,7 @@ npm run ${stage}
 
 ## 🏗️ Building in AWS
 
-The app is ideally built as part of a DevOps build process in a CI/CD pipeline, in AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
+The app is ideally built as part of a DevOps build process in a CI/CD pipeline, with AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
 
 ```bash
 app/web/src/config/aws/buildspec_${stage}.yml
@@ -105,24 +105,24 @@ Further additions to the repository are as follows:
 
 ## AWS AppSync
 
-Coming soon
+Load data from database using a serverless GraphQL API hosted on AWS.
 
 ## AWS API Gateway
 
-Coming soon
+Load data from database using a serverless REST API hosted on AWS.
 
 ## AWS Cognito
 
-Coming soon
+Authenticate users with a serverless auth service hosted on AWS.
 
 ## Aurelia Store
 
-Coming soon
+Manage state on the frontend.
 
 ## Aurelia I18N
 
-Coming soon
+Load translations dynamically.
 
 ## Markdown Processing
 
-Coming soon
+Display markdown text with styles.
