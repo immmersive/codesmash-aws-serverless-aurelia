@@ -1,0 +1,20 @@
+version: 0.2
+
+phases:
+
+  install:
+    commands:
+      - npm i
+      
+  build:
+    commands:
+      - cd app/web
+      - npm i 
+      - npm run prod      
+      - cd build
+      - aws s3 rm s3://YOUR-S3-BUCKET --recursive
+      - aws s3 sync . s3://YOUR-S3-BUCKET
+  
+artifacts:
+  files:
+    - build/**/*
