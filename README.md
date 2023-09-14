@@ -65,9 +65,13 @@ A tool for transforming CSS with JavaScript
 
 # 🔨 Build Process
 
-The app is already prepared for 3 different environments - development, testing and production. You can run the app locally by simply running:
+The app is already prepared for 3 different environments - development, testing and production. You can run the app locally, by first installing NPM packages in the following folder:
 
 ```bash
+cd codesmash-aws-serverless-aurelia/app/web
+
+npm i
+
 npm run start  
 ```
 
