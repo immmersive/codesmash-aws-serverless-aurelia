@@ -12,27 +12,27 @@ This repo is usimg the following packages:
 
 ## Neutrino 
 
-- A fluent API setup for Webpack
+A fluent API setup for Webpack
 
 ## Webpack
 
-- Static file packaging for Javascript-based web apps.
+Static file packaging for Javascript-based web apps.
 
 ## TypeScript
 
-- Statically typed JavaScript implementation
+Statically typed JavaScript implementation
 
 ## Tailwind CSS
 
-- Utility-based CSS library
+Utility-based CSS library
 
 ## Babel
 
-- JavaScript transpiler
+JavaScript transpiler
 
 ## PostCSS
 
-- A tool for transforming CSS with JavaScript
+A tool for transforming CSS with JavaScript
 
 # 🔨 Build Process
 
