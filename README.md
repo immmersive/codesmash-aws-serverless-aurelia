@@ -36,13 +36,9 @@ Static file packaging for Javascript-based web apps.
 - url-loader
   - imports images
 - resolves node_modules
-- build manifest
-- split chunks and load with dynamic
-
-  
-  ```javascript
-  import('...')
-  ```
+- dynamic import
+  - build manifest
+  - split chunks and load with dynamic import('...')
 - performance hints
 - postcss-loader
 - mini-css-extract-plugin
@@ -84,6 +80,16 @@ You can build the file for each environment by running:
 The app is ideally built as part of a DevOps build process in a CI/CD pipeline, in AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
 
 - app/web/src/config/aws/buildspec_${stage}.yml
+
+# How To
+
+## Dynamic Chunk Import
+
+You can load parts of JavaScript dynamically by importing them in the following way:
+
+```javascript
+const { default: myModule } = await import(/* webpackChunkName: "myModule" */ '../myModule');  
+```
 
 # 🚧 Roadmap
 
