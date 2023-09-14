@@ -52,6 +52,9 @@ The app is ideally built as part of a DevOps build process in a CI/CD pipeline, 
 
 Further additions to the repository are as follows:
 
-## AWS AppSync Integration
-## AWS API Gateway Integration
-## AWS Cognito Integration
+## AWS AppSync
+## AWS API Gateway
+## AWS Cognito
+## Aurelia Store
+## Aurelia I18N
+## Markdown Processing
