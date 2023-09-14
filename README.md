@@ -71,11 +71,11 @@ The app is already prepared for 3 different environments - development, testing 
 npm run start  
 ```
 
-You can build the file for each environment by running:
+You can build the file for each environment (dev, uat, prod) by running:
 
-- npm run dev
-- npm run uat
-- npm run prod
+```bash
+npm run ${stage}  
+```
 
 ## 🏗️ Building in AWS
 
