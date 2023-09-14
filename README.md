@@ -37,7 +37,17 @@ Static file packaging for Javascript-based web apps.
   - imports images
 - resolves node_modules
 - build manifest
-- split chunks and load with dynamic <span>import('...')</span>
+- split chunks and load with dynamic
+  ```javascript
+  import('...')
+  ```
+- performance hints
+- postcss-loader
+- mini-css-extract-plugin
+  - css-loader: loads css files
+  - sass-loader: loads saas files
+- ts-loader
+  - loads TypeScript files
 
 ## TypeScript
 
