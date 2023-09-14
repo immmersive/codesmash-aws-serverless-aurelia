@@ -81,7 +81,9 @@ npm run ${stage}
 
 The app is ideally built as part of a DevOps build process in a CI/CD pipeline, in AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
 
-- app/web/src/config/aws/buildspec_${stage}.yml
+```bash
+app/web/src/config/aws/buildspec_${stage}.yml
+```
 
 # How To
 
