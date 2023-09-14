@@ -41,3 +41,17 @@ You can build the file for each environment by running:
 - npm run dev
 - npm run uat
 - npm run prod
+
+## Building in AWS
+
+The app is ideally built as part of a DevOps build process in a CI/CD pipeline, in AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
+
+- app/web/src/config/aws/buildspec_${stage}.yml
+
+# Roadmap
+
+Further additions to the repository are as follows:
+
+## AWS AppSync Integration
+## AWS API Gateway Integration
+## AWS Cognito Integration
