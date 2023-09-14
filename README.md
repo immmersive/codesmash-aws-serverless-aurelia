@@ -38,6 +38,8 @@ Static file packaging for Javascript-based web apps.
 - resolves node_modules
 - build manifest
 - split chunks and load with dynamic
+
+  
   ```javascript
   import('...')
   ```
