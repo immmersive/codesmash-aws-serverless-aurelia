@@ -6,6 +6,32 @@ This repo contains a highly customized template for deploying a serverless [Aure
 
 You can build a fully customized Aurelia web app from this repo. The app is intended to be deployed in an AWS S3 bucket. The AWS S3 bucket is used to provide a serverless (low cost and high availability) data storage for static files.
 
+# 🔨 Build Locally
+
+The app is already prepared for 3 different environments - development, testing and production. You can run the app locally, by first installing NPM packages in the following folder:
+
+```bash
+cd codesmash-aws-serverless-aurelia/app/web
+
+npm i
+
+npm run start  
+```
+
+You can build the file for each environment (dev, uat, prod) by running:
+
+```bash
+npm run ${stage}  
+```
+
+## 🏗️ Build in AWS
+
+The app is ideally built as part of a DevOps build process in a CI/CD pipeline, with AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
+
+```bash
+app/web/src/config/aws/buildspec_${stage}.yml
+```
+
 # 📦 Customization
 
 This repo is usimg the following packages:
@@ -62,32 +88,6 @@ JavaScript transpiler
 ## PostCSS
 
 A tool for transforming CSS with JavaScript
-
-# 🔨 Build Process
-
-The app is already prepared for 3 different environments - development, testing and production. You can run the app locally, by first installing NPM packages in the following folder:
-
-```bash
-cd codesmash-aws-serverless-aurelia/app/web
-
-npm i
-
-npm run start  
-```
-
-You can build the file for each environment (dev, uat, prod) by running:
-
-```bash
-npm run ${stage}  
-```
-
-## 🏗️ Building in AWS
-
-The app is ideally built as part of a DevOps build process in a CI/CD pipeline, with AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
-
-```bash
-app/web/src/config/aws/buildspec_${stage}.yml
-```
 
 # How To
 
