@@ -1,4 +1,4 @@
-# codesmash-aws-serverless-aurelia
+# Serverless Aurelia
 
 ![Aurelia](https://github.com/immmersive/codesmash-aws-serverless-aurelia/blob/main/app/web/src/resources/images/aurelia.png)
 
