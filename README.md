@@ -2,7 +2,7 @@
 
 ![Aurelia](https://github.com/immmersive/codesmash-aws-serverless-aurelia/blob/main/app/web/src/resources/images/aurelia.png)
 
-This repo contains a highly customized template for deploying a serverless Aurelia web app. 
+This repo contains a highly customized template for deploying a serverless [Aurelia](https://aurelia.io/) web app. 
 
 You can build a fully customized Aurelia web app from this repo. The app is intended to be deployed in an AWS S3 bucket. The AWS S3 bucket is used to provide a serverless (low cost and high availability) data storage for static files.
 
