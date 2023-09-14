@@ -2,7 +2,7 @@
 
 This repo contains a highly customized template for deploying a serverless Aurelia web app. You can build a fully customized Aurelia web app from this repo. The app is intended to be deployed in an AWS S3 bucket. The AWS S3 bucket is used to provide a serverless (low cost and high availability) data storage for static files.
 
-# Customization
+# 📦 Customization
 
 This repo is usimg the following packages:
 
@@ -30,7 +30,7 @@ This repo is usimg the following packages:
 
 - A tool for transforming CSS with JavaScript
 
-# Build Process
+# 🔨 Build Process
 
 The app is already prepared for 3 different environments - development, testing and production. You can run the app locally by simply running:
 
@@ -42,13 +42,13 @@ You can build the file for each environment by running:
 - npm run uat
 - npm run prod
 
-## Building in AWS
+## 🏗️ Building in AWS
 
 The app is ideally built as part of a DevOps build process in a CI/CD pipeline, in AWS CodeBuild and automatically deployed to an AWS S3 bucket. You can find the config files for each environment, which define the build steps in the following path:
 
 - app/web/src/config/aws/buildspec_${stage}.yml
 
-# Roadmap
+# 🚧 Roadmap
 
 Further additions to the repository are as follows:
 
