@@ -115,6 +115,10 @@ Load data from database using a serverless REST API hosted on AWS.
 
 Authenticate users with a serverless auth service hosted on AWS.
 
+References
+
+[codesmash-aws-serverless-auth](https://github.com/immmersive/codesmash-aws-serverless-auth)
+
 ## Aurelia Store
 
 Manage state on the frontend.
