@@ -1,5 +1,9 @@
 version: 0.2
 
+env:    
+  variables:
+    s3_bucket: "$s_bucket"
+
 phases:
 
   install:
@@ -12,8 +16,8 @@ phases:
       - npm i 
       - npm run dev      
       - cd build
-      - aws s3 rm s3://YOUR-S3-BUCKET --recursive
-      - aws s3 sync . s3://YOUR-S3-BUCKET
+      - aws s3 rm s3://${s3_bucket} --recursive
+      - aws s3 sync . s3://${s3_bucket}
   
 artifacts:
   files:
